@@ -25,7 +25,7 @@ jobs:
       #     npm run build
       - name: Fake install and build
         run: |
-          mkdir -p ./build && cp "./index.html" "./build/index.html"
+          mkdir -p ./build && cp "./index.html" "./build"
 
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
