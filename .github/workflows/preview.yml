@@ -30,3 +30,4 @@ jobs:
           source-dir: ./build/
           preview-branch: master
           umbrella-dir: pr-preview
+          action: auto
